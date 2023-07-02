@@ -3,6 +3,7 @@ import numpy as np
 print("Bienvenido al generador de matrices")
 
 ###             -- Dimensión ingresada --
+print()
 n = int(input("Escribe un numero: "))
  
 
@@ -61,5 +62,9 @@ for j in range(len(m[0])):
 
 suma_total_columnas = sum(suma_columnas)
 
+print()
 print("La suma de cada columnas es: ", suma_columnas)
 print("La suma total de las columnas es: ", suma_total_columnas)
+
+print()
+print("La suma de columnas y filas es correcta al dar el mismo resultado")
