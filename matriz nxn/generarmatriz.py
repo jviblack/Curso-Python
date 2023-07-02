@@ -1,17 +1,23 @@
 import numpy as np
 
+print("Bienvenido al generador de matrices")
 
+###             -- Dimensión ingresada --
 n = int(input("Escribe un numero: "))
  
-# Formar lista
-# Crear la matriz n*n
 
+###              -- Generar la matriz n*n --
+
+# Rellear la matriz con numero aleatorios de 0 a 9 con la dimension ingresada
 m = [np.random.randint(0, 9, n) for j in range(n)]
 
-# matriz = [list(range(1 + n * i, 1 + n * (i + 1)))
-#   for i in range(n)]
+#matriz = [list(range(1 + n * i, 1 + n * (i + 1)))
+    #for i in range(n)]
 
-# Imprimir el resultado
+
+###               -- Imprimir el resultado --
+
+# Imprimir solo resultado
 #print("La matriz creada es: " + str(matriz))
 
 # Imprimir el resultado separado por lineas
